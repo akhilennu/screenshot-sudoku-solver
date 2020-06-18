@@ -1,0 +1,7 @@
+numpy
+flask
+pillow
+gunicorn
+flask_cors
+scikit-learn==0.22.1
+joblib
