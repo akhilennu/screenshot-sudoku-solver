@@ -128,7 +128,7 @@ def hide_image(im1, start_x, start_y, end_x, end_y):
     return im
 
 
-def processImageToArr(im, imSize=8):
+def processImageToArr(im, imSize=16):
     return 16 - (np.asarray(im.convert('L').resize(size=(imSize,imSize))).reshape(imSize*imSize)/16)
 
 
